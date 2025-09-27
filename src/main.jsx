@@ -8,6 +8,10 @@ import { ProductPage } from './components/ProductPage.jsx'
 import { VarState } from './components/VarState.jsx'
 import { UserInput } from './components/UserInput.jsx'
 import { StateAsArray } from './components/StateAsArray.jsx'
+import { StateAsObj } from './components/StateAsObj.jsx'
+import { StateAsObjUserInput } from './components/StateAsObjUserInput.jsx'
+import { StateAsPrevState } from './components/StateAsPrevState.jsx'
+import { ReactFamousError } from './components/ReactFamousError.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +21,10 @@ createRoot(document.getElementById('root')).render(
     {/* <ProductPage/> */}
     {/* <VarState/> */}
     {/* <UserInput/> */}
-    <StateAsArray/>
+    {/* <StateAsArray/> */}
+    {/* <StateAsObj/> */}
+    {/* <StateAsObjUserInput/> */}
+    {/* <StateAsPrevState/> */}
+    <ReactFamousError/>
   </StrictMode>,
 )
