@@ -12,6 +12,8 @@ import { StateAsObj } from './components/StateAsObj.jsx'
 import { StateAsObjUserInput } from './components/StateAsObjUserInput.jsx'
 import { StateAsPrevState } from './components/StateAsPrevState.jsx'
 import { ReactFamousError } from './components/ReactFamousError.jsx'
+import Styling from './components/Styling.jsx'
+import { ConStyling } from './components/ConStyling.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +27,10 @@ createRoot(document.getElementById('root')).render(
     {/* <StateAsObj/> */}
     {/* <StateAsObjUserInput/> */}
     {/* <StateAsPrevState/> */}
-    <ReactFamousError/>
+    {/* <ReactFamousError/> */}
+
+    {/* <Styling/> */}
+
+    <ConStyling/>
   </StrictMode>,
 )
