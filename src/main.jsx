@@ -18,9 +18,11 @@ import { Login } from './components/external/Login.jsx'
 import Initial from './components/sideEffects/Initial.jsx'
 import Scenario1 from './components/sideEffects/Scenario1.jsx'
 import Scenario2 from './components/sideEffects/Scenario2.jsx'
+import Scenario3 from './components/sideEffects/Scenario3.jsx'
+import Scenario4 from './components/sideEffects/Scenario4.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     {/* <App /> */}
     {/* <Test/> */}
     {/* <ProductList/> */}
@@ -37,6 +39,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Login/> */}
     {/* <Initial/> */}
     {/* <Scenario1/> */}
-    <Scenario2/>
-  </StrictMode>,
+    {/* <Scenario2/> */}
+    {/* <Scenario3/> */}
+    <Scenario4/>
+  </>,
 )
