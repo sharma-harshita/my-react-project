@@ -15,6 +15,9 @@ import { ReactFamousError } from './components/ReactFamousError.jsx'
 import Styling from './components/Styling.jsx'
 import { ConStyling } from './components/ConStyling.jsx'
 import { Login } from './components/external/Login.jsx'
+import Initial from './components/sideEffects/Initial.jsx'
+import Scenario1 from './components/sideEffects/Scenario1.jsx'
+import Scenario2 from './components/sideEffects/Scenario2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,6 +34,9 @@ createRoot(document.getElementById('root')).render(
     {/* <ReactFamousError/> */}
     {/* <Styling/> */}
     {/* <ConStyling/> */}
-    <Login/>
+    {/* <Login/> */}
+    {/* <Initial/> */}
+    {/* <Scenario1/> */}
+    <Scenario2/>
   </StrictMode>,
 )
