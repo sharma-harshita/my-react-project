@@ -20,6 +20,8 @@ import Scenario1 from './components/sideEffects/Scenario1.jsx'
 import Scenario2 from './components/sideEffects/Scenario2.jsx'
 import Scenario3 from './components/sideEffects/Scenario3.jsx'
 import Scenario4 from './components/sideEffects/Scenario4.jsx'
+import ServerEffect from './components/sideEffects/ServerEffect.jsx'
+import Layout from './components/sideEffects/Layout.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -41,6 +43,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Scenario1/> */}
     {/* <Scenario2/> */}
     {/* <Scenario3/> */}
-    <Scenario4/>
+    {/* <Scenario4/> */}
+    {/* <ServerEffect/> */}
+    <Layout/>
   </>,
 )
