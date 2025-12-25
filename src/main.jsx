@@ -22,6 +22,7 @@ import Scenario3 from './components/sideEffects/Scenario3.jsx'
 import Scenario4 from './components/sideEffects/Scenario4.jsx'
 import ServerEffect from './components/sideEffects/ServerEffect.jsx'
 import Layout from './components/sideEffects/Layout.jsx'
+import ApiSearchWithDebounce from './components/sideEffects/ApiSearchWithDebounce.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -45,6 +46,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Scenario3/> */}
     {/* <Scenario4/> */}
     {/* <ServerEffect/> */}
-    <Layout/>
+    {/* <Layout/> */}
+    <ApiSearchWithDebounce/>
   </>,
 )
